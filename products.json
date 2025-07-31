@@ -21,11 +21,62 @@
     "image": "bag.jpeg"
   },
   {
-    "id": 4,
-    "name": "Notebook",
-    "description": "Spiral notebook for notes",
-    "price": 20,
-    "image": "note.jpeg"
+    "id": 10,
+    "name": "Sneaker",
+    "description": "More comfort and stylish sneaker",
+    "price": 200,
+    "image": "sneaker.webp"
+  },
+  {
+    "id": 6,
+    "name": "Desk Lamp",
+    "description": "Bright LED desk lamp",
+    "price": 500,
+    "image": "lamp.jpeg"
+  },
+
+  {
+    "id": 8,
+    "name": "Bluetooth Speaker",
+    "description": "Portable Bluetooth speaker",
+    "price": 750,
+    "image": "speaker.jpg"
+  },
+
+  {
+    "id": 11,
+    "name": "Headphones",
+    "description": "Over-ear noise-cancelling headphones",
+    "price": 1200,
+    "image": "headphone.webp"
+  },
+  {
+    "id": 12,
+    "name": "Sunglasses",
+    "description": "Stylish UV-protective sunglasses",
+    "price": 250,
+    "image": "sunglass.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Fitness Tracker",
+    "description": "Smart fitness wristband",
+    "price": 999,
+    "image": "watch.webp"
+  },
+  {
+    "id": 14,
+    "name": "Travel Mug",
+    "description": "Insulated stainless steel travel mug",
+    "price": 350,
+    "image": "mugs.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Sports Cap",
+    "description": "Breathable adjustable cap",
+    "price": 200,
+    "image": "cap.jpg"
   },
   {
     "id": 5,
@@ -35,17 +86,10 @@
     "image": "pen (2).jpeg"
   },
   {
-    "id": 6,
-    "name": "Desk Lamp",
-    "description": "Bright LED desk lamp",
-    "price": 500,
-    "image": "lamp.jpeg"
-  },
-  {
-    "id": 7,
-    "name": "Water Bottle",
-    "description": "Reusable water bottle",
-    "price": 150,
-    "image": "bottle.webp"
+    "id": 4,
+    "name": "Notebook",
+    "description": "Spiral notebook for notes",
+    "price": 20,
+    "image": "note.jpeg"
   }
 ]
