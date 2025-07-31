@@ -35,7 +35,7 @@ function renderCart(products, cart) {
       item.innerHTML = `
         <div>
           <h3 class="text-lg font-bold">${p.name}</h3>
-          <p class="text-gray-600">Price: $${p.price}</p>
+          <p class="text-gray-600">Price: ₹${p.price}</p>
           <p class="text-gray-600">Quantity: <span id="qty-${p.id}">${qty}</span></p>
           <div class="mt-2">
             <button class="bg-blue-600 text-white px-2 py-1 rounded" onclick="updateQty(${p.id}, 1)">+</button>
@@ -43,13 +43,13 @@ function renderCart(products, cart) {
             <button class="bg-red-600 text-white px-2 py-1 rounded" onclick="removeItem(${p.id})">Remove</button>
           </div>
         </div>
-        <p class="text-lg font-bold">$${p.price * qty}</p>
+        <p class="text-lg font-bold">₹${p.price * qty}</p>
       `;
       container.appendChild(item);
     }
   });
 
-  totalDiv.innerHTML = `Total: $${total} (${totalItems} items)`;
+  totalDiv.innerHTML = `Total: ₹${total} (${totalItems} items)`;
 
   if (Object.keys(cart).length === 0) {
     container.innerHTML = '<p>Your cart is empty.</p>';

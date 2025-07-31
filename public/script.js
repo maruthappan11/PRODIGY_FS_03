@@ -9,7 +9,7 @@ fetch('/api/products')
         <img src="${p.image}" alt="${p.name}" class="w-full h-40 object-cover mb-4 rounded" />
         <h3 class="text-xl font-bold mb-2">${p.name}</h3>
         <p class="text-gray-600 mb-2">${p.description}</p>
-        <p class="font-semibold mb-4">$${p.price}</p>
+        <p class="font-semibold mb-4">₹${p.price}</p>
         <button class="bg-blue-600 text-white px-4 py-2 rounded w-full hover:bg-blue-700" onclick="addToCart(${p.id})">Add to Cart</button>
       `;
       container.appendChild(div);
